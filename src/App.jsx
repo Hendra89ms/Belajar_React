@@ -10,14 +10,14 @@ import SectionRegister from "./components/section/sectionRegister";
 const App = () => {
   const [page, setPage] = useState("home");
 
-  if (page === "register") {
-    return (
-      <div className="register">
-        <NavBar action={[page, setPage]} />
-        <SectionRegister />
-      </div>
-    );
-  }
+  // if (page === "register") {
+  //   return (
+  //     <div className="register">
+  //       <NavBar action={[page, setPage]} />
+  //       <SectionRegister />
+  //     </div>
+  //   );
+  // }
 
   return (
     <div className="container">
